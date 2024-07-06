@@ -1,0 +1,35 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+}
+
+input[type="text"] {
+  background-color: #343a40;
+  border: 1px solid #495057;
+  color: white;
+}
+
+input[type="text"]::placeholder {
+  color: #adb5bd;
+}
+
+input[type="text"]:focus {
+  background-color: #495057;
+  border-color: #6c757d;
+  color: white;
+}
+
+.list-group-item {
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.list-group-item:hover {
+  background-color: #343a40;
+  transform: scale(1.02);
+}
+
+.todo-text {
+  flex: 1;
+  overflow-wrap: break-word;
+}
